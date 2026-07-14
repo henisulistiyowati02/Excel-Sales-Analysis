@@ -1,4 +1,4 @@
-# Excel Portfolio Project 
+# Sales Performance Analysis
 
 ## Project Overview 
 This project analyzes sales data to understand revenue, profit, customer activity,
