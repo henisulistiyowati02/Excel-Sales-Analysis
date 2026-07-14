@@ -1,18 +1,21 @@
 # Sales Performance Analysis
 
 ## Project Overview 
-This project analyzes sales data to understand revenue, profit, customer activity,
-and business performance.
+
+This project analyzes sales performance data to understand revenue drivers, profit patterns, and regional performance.
 
 ## Business Objective
-The objective is to identify the strongest revenue drivers, review data quality
-issues, and provide business recommendations based on Excel analysis.
+
+The objective is to identify which product categories, regions, and sales channels contribute the most to clean revenue and profit, while also documenting data quality issues that should be reviewed before making dashboard-based decisions.
 
 ## Dataset 
-The dataset contains sales order records such as order date, region, category,
-channel, quantity, revenue, cost, profit, and order status.
+
+The dataset contains order-level sales records with fields such as order date, customer name, region, channel, order status, product, quantity, revenue, cost, profit, and sales representative.
+
+The dataset includes intentional data quality issues such as inconsistent text formatting, date formatting differences, missing values, duplicate order IDs, and some numeric values stored as text.
 
 ## Tools Used 
+
 - Microsoft Excel
 - Excel Formulas
 - Summary Table 
@@ -22,19 +25,33 @@ channel, quantity, revenue, cost, profit, and order status.
 - GitHub documentation
 
 ## Analysis Process
-1. Reviewed the raw dataset.
-2. Cleaned inconsistent or incomplete data.
-3. Created calculated fields and summary analysis.
-4. Built charts and dashboard views.
-5. Wrote business insights and recommendations.
+
+1. Reviewed raw sales order data and data dictionary.
+2. Standardized text fields such as region, channel, status, and category.
+3. Converted date and numeric fields into analysis-ready values.
+4. Reviewed duplicate orders, missing values, and unusual status records.
+5. Built summary analysis for revenue, profit, order count, average order value, and margin.
+6. Created a dashboard preview and business insights.
 
 ## Dashboard Preview
 
+![Dashboard Preview](dashboard-preview.png?raw=true&v=4)
+
 ## Project Files
 
-## Key Insights
+- `sales-performance-dataset.xlsx`: source dataset used for the project
+- `sales-performance-analysis.xlsx`: Excel workbook with cleaned data, summaries, dashboard, and insights
+- `dashboard-preview.png`: dashboard preview image
+- `data-cleaning-log.md`: business-style cleaning documentation
+- `business-insights.md`: summary of key findings and recommendations
 
-## Recommendation
+## Summary Metrics
+
+| Metric | Value |
+|---|---:|
+| Clean Revenue | Rp 1.430.336.900 |
+| Clean Profit | Rp 423.861.900 |
+| Clean Orders | 620 |
 
 ## Notes 
 The project explanation will be completed in class. 
